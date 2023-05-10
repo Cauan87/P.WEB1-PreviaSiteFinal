@@ -1,0 +1,64 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.btn-bd-primary {
+--bd-violet-bg: #712cf9;
+--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+--bs-btn-font-weight: 600;
+--bs-btn-color: var(--bs-white);
+--bs-btn-bg: var(--bd-violet-bg);
+--bs-btn-border-color: var(--bd-violet-bg);
+--bs-btn-hover-color: var(--bs-white);
+--bs-btn-hover-bg: #6528e0;
+--bs-btn-hover-border-color: #6528e0;
+--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+--bs-btn-active-color: var(--bs-btn-hover-color);
+--bs-btn-active-bg: #5a23c8;
+--bs-btn-active-border-color: #5a23c8;
+}
+
+.nav-item {
+    padding: 5px;
+    
+}
+.game_card {
+    border: 7px solid #211c1c;
+    cursor: pointer;
+}
+.game_card:hover {
+    border-color: #007bff;
+}
+.capa {
+    height: 210.5px;
+    width: 150px;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+.gameTitle {
+    margin-top: 15px;
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Sigmar One';
+}
+.divTitle {
+    font-size: 1.8rem;
+    font-family: 'Anton';
+    position: relative;
+    right: 15px;
+    padding: 20px;
+    color: white;
+}
+#logoPS {
+  background: #211c1c;
+}
+#nintendobt {
+    height: 42.48px;
+    margin-top: 5px;
+}
