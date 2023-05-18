@@ -12,5 +12,18 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cauan87/P.WEB1-PreviaSiteFinal.git"
+  },
+  "author": "Cauan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cauan87/P.WEB1-PreviaSiteFinal/issues"
+  },
+  "homepage": "https://github.com/Cauan87/P.WEB1-PreviaSiteFinal#readme",
+  "description": ""
 }
