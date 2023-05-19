@@ -1,7 +1,8 @@
 body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: var(--corp);
+    margin-top: 20px;
 }
-
 
 .btn-bd-primary {
 --bd-violet-bg: #712cf9;
@@ -20,12 +21,12 @@ body {
 --bs-btn-active-border-color: #5a23c8;
 }
 
-.nav-item {
-    padding: 5px;
-    
+:root { /* todas as tuas variáveis */
+    --corp: #181616;
 }
+
 .game_card {
-    border: 7px solid #211c1c;
+    border: 7px solid transparent;
     cursor: pointer;
 }
 .game_card:hover {
@@ -34,11 +35,6 @@ body {
 .capa {
     height: 210.5px;
     width: 150px;
-}
-
-
-.container {
-    margin-top: 20px;
 }
 .gameTitle {
     margin-top: 15px;
@@ -55,10 +51,8 @@ body {
     padding: 20px;
     color: white;
 }
-#logoPS {
-  background: #211c1c;
-}
-#nintendobt {
-    height: 42.48px;
-    margin-top: 5px;
+
+#showAll {
+    border-block: 15px;
+    border-block-color: 5px;
 }

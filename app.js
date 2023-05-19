@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var aboutGameRouter = require('./routes/aboutGame');
 var playstationRouter = require('./routes/playstation');
 var nintendoRouter = require('./routes/nintendo');
-
+var json = require('./services/pushJSON');
 var app = express();
 
 // view engine setup
@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/aboutGame', aboutGameRouter);
+app.use('/:title', aboutGameRouter);
 app.use('/playstation', playstationRouter);
 app.use('/nintendo', nintendoRouter);
 
@@ -42,5 +42,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen('3020');
+app.listen(3020);
+
 module.exports = app;
